@@ -1,15 +1,15 @@
 :root {
-  --space: #03060f;
-  --ink: #e9f7ff;
-  --muted: #9eb6d4;
-  --cyan: #3de4ff;
-  --cyan-deep: #149bff;
-  --line: rgba(61, 228, 255, 0.38);
+  --space: #05030a;
+  --ink: #f7f1e6;
+  --muted: #cbbba6;
+  --cyan: #e6b34a;
+  --cyan-deep: #c4842a;
+  --line: rgba(230, 179, 74, 0.42);
 }
 
 body,
 .home-page {
-  background: var(--space) url("brand/space-field.png") center top / cover no-repeat fixed;
+  background: var(--space) url("brand/solana-field.jpg") center top / cover no-repeat fixed;
   color: var(--ink);
 }
 
@@ -20,14 +20,14 @@ body,
 }
 
 .launch-strip {
-  background: #04101c;
+  background: #16130f;
   color: var(--cyan);
   letter-spacing: 0.16em;
 }
 
 .site-header {
   color: var(--ink);
-  background: rgba(3, 8, 20, 0.82);
+  background: rgba(16, 12, 8, 0.82);
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(16px);
 }
@@ -48,8 +48,8 @@ body,
   border: 2px solid var(--cyan);
   border-radius: 50%;
   transform: none;
-  box-shadow: 0 0 18px rgba(61, 228, 255, 0.55);
-  background: #04101c;
+  box-shadow: 0 0 18px rgba(230, 179, 74, 0.55);
+  background: #16130f;
 }
 
 .site-nav a {
@@ -74,7 +74,7 @@ body,
 }
 
 .chain-identity span {
-  color: #8eb6d4;
+  color: #c4b49a;
 }
 
 .chain-identity strong {
@@ -96,8 +96,8 @@ body,
 }
 
 .home-hero:before {
-  background: rgba(4, 10, 22, 0.78);
-  box-shadow: 0 0 0 1px var(--line), 0 24px 70px rgba(20, 155, 255, 0.22);
+  background: rgba(18, 14, 10, 0.78);
+  box-shadow: 0 0 0 1px var(--line), 0 24px 70px rgba(196, 132, 42, 0.22);
   clip-path: none;
   border-radius: 18px;
 }
@@ -109,14 +109,14 @@ body,
 }
 
 .hero-kicker {
-  color: #041018 !important;
+  color: #1a1208 !important;
   background: var(--cyan);
 }
 
 .home-hero h1 {
   color: var(--ink);
   font-size: clamp(64px, 6.2vw, 108px);
-  text-shadow: 0 0 28px rgba(61, 228, 255, 0.28);
+  text-shadow: 0 0 28px rgba(230, 179, 74, 0.28);
 }
 
 .home-hero h1:after {
@@ -132,21 +132,21 @@ body,
 }
 
 .hero-market-highlight {
-  color: #041018;
+  color: #1a1208;
   background: var(--cyan);
-  border-color: #041018;
-  box-shadow: 7px 7px #041018;
+  border-color: #1a1208;
+  box-shadow: 7px 7px #1a1208;
 }
 
 .primary-action {
-  color: #041018;
+  color: #1a1208;
   background: var(--cyan);
-  border-color: #041018;
-  box-shadow: 0 0 24px rgba(61, 228, 255, 0.45);
+  border-color: #1a1208;
+  box-shadow: 0 0 24px rgba(230, 179, 74, 0.45);
 }
 
 .primary-action:hover {
-  background: #8af3ff;
+  background: #f6d78a;
 }
 
 .text-action {
@@ -155,28 +155,28 @@ body,
 }
 
 .paste-shadow {
-  background: rgba(20, 155, 255, 0.55);
+  background: rgba(196, 132, 42, 0.55);
 }
 
 .halftone-disc {
-  background-color: #050814;
-  background-image: radial-gradient(rgba(61, 228, 255, 0.45) 1.4px, transparent 1.6px);
+  background-color: #120f0c;
+  background-image: radial-gradient(rgba(230, 179, 74, 0.45) 1.4px, transparent 1.6px);
 }
 
 .home-hero-art img {
-  filter: drop-shadow(0 0 28px rgba(61, 228, 255, 0.45));
+  filter: drop-shadow(0 0 28px rgba(230, 179, 74, 0.45));
 }
 
 .art-note {
   color: var(--ink);
-  background: rgba(4, 10, 22, 0.88);
+  background: rgba(18, 14, 10, 0.88);
   border-color: var(--cyan);
-  box-shadow: 0 0 16px rgba(61, 228, 255, 0.35);
+  box-shadow: 0 0 16px rgba(230, 179, 74, 0.35);
 }
 
 .art-note.note-two {
   background: var(--cyan);
-  color: #041018;
+  color: #1a1208;
 }
 
 .home-hero-copy {
@@ -195,7 +195,7 @@ body,
 .hero-stamp {
   color: var(--ink);
   border-color: var(--cyan);
-  background: rgba(4, 10, 22, 0.72);
+  background: rgba(18, 14, 10, 0.72);
 }
 
 .hero-stamp:before,
@@ -210,8 +210,8 @@ body,
 }
 
 .home-page > .official-links {
-  background: rgba(4, 10, 22, 0.86);
-  box-shadow: 0 0 0 1px var(--line), 0 18px 50px rgba(20, 155, 255, 0.18);
+  background: rgba(18, 14, 10, 0.86);
+  box-shadow: 0 0 0 1px var(--line), 0 18px 50px rgba(196, 132, 42, 0.18);
   transform: none;
 }
 
@@ -233,7 +233,7 @@ body,
 .home-page > .official-links .contract-link,
 .contract-link {
   background: var(--cyan);
-  color: #041018;
+  color: #1a1208;
   clip-path: none;
 }
 
@@ -243,13 +243,13 @@ body,
 }
 
 .contract-link button {
-  border-color: #041018;
-  color: #041018;
+  border-color: #1a1208;
+  color: #1a1208;
 }
 
 .home-page > .official-links .official-links-list > a,
 .official-links-list > a {
-  background: rgba(6, 14, 28, 0.92);
+  background: rgba(22, 16, 10, 0.92);
   color: var(--ink);
   border-color: var(--line);
 }
@@ -261,7 +261,7 @@ body,
 
 .home-page > .official-links .official-links-list > a:hover,
 .official-links-list > a:hover {
-  background: rgba(20, 80, 120, 0.55);
+  background: rgba(140, 90, 30, 0.5);
 }
 
 .link-symbol {
@@ -270,9 +270,11 @@ body,
 }
 
 .swappy-girls-section:before {
-  background: #050814 url("brand/energy-band.png") center / cover no-repeat;
+  background:
+    linear-gradient(rgba(16, 12, 8, 0.45), rgba(16, 12, 8, 0.62)),
+    url("brand/gold-band.jpg") center / cover no-repeat;
   border-color: var(--line);
-  box-shadow: 0 0 40px rgba(61, 228, 255, 0.28);
+  box-shadow: 0 0 40px rgba(230, 179, 74, 0.28);
 }
 
 .swappy-girls-heading h2 {
@@ -280,20 +282,33 @@ body,
 }
 
 .swappy-girls-heading h2 strong {
-  color: #041018;
+  color: #1a1208;
   background: var(--cyan);
 }
 
 .swappy-girls-heading h2 span {
-  color: #041018;
-  background: #d7f7ff;
+  color: #1a1208;
+  background: #f6e7c4;
 }
 
 .swappy-girls-heading > p {
-  color: #041018;
+  color: #1a1208;
   background: var(--cyan);
-  border-color: #d7f7ff;
-  box-shadow: 10px 10px rgba(20, 155, 255, 0.45);
+  border-color: #f6e7c4;
+  box-shadow: 10px 10px #8d5e16;
+}
+
+@keyframes recruitment-poster-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-1deg);
+    box-shadow: 10px 10px #8d5e16;
+  }
+
+  50% {
+    transform: translateY(-8px) rotate(0.35deg);
+    box-shadow: 15px 16px #8d5e16;
+  }
 }
 
 .swappy-girls-heading > p:after {
@@ -306,16 +321,16 @@ body,
   height: auto;
   margin: 6px 42px 8px;
   border: 1px solid var(--line);
-  box-shadow: 0 0 36px rgba(61, 228, 255, 0.35);
+  box-shadow: 0 0 36px rgba(230, 179, 74, 0.35);
 }
 
 .home-intro {
-  background: rgba(4, 12, 28, 0.88);
+  background: rgba(18, 14, 10, 0.88);
   color: var(--ink);
   clip-path: none;
   transform: none;
   border: 1px solid var(--line);
-  box-shadow: 0 0 32px rgba(20, 155, 255, 0.2);
+  box-shadow: 0 0 32px rgba(196, 132, 42, 0.2);
 }
 
 .home-intro .home-section-number {
@@ -331,7 +346,7 @@ body,
 }
 
 .identity-not {
-  background: rgba(4, 10, 22, 0.9);
+  background: rgba(18, 14, 10, 0.9);
   color: var(--ink);
   border-color: var(--line);
   clip-path: none;
@@ -347,11 +362,13 @@ body,
 }
 
 .identity-is {
-  background: rgba(6, 16, 36, 0.92) url("brand/energy-band.png") center / cover no-repeat;
+  background:
+    linear-gradient(rgba(18, 14, 10, 0.78), rgba(18, 14, 10, 0.88)),
+    url("brand/gold-band.jpg") center / cover no-repeat;
   color: var(--ink);
   clip-path: none;
   transform: none;
-  box-shadow: inset 0 0 0 1px var(--line), 0 0 40px rgba(61, 228, 255, 0.16);
+  box-shadow: inset 0 0 0 1px var(--line), 0 0 40px rgba(230, 179, 74, 0.16);
 }
 
 .identity-is-title {
@@ -367,8 +384,8 @@ body,
 }
 
 .home-footer {
-  background: rgba(3, 8, 18, 0.92);
-  box-shadow: 0 0 0 1px var(--line), 0 0 28px rgba(20, 155, 255, 0.2);
+  background: rgba(14, 11, 8, 0.92);
+  box-shadow: 0 0 0 1px var(--line), 0 0 28px rgba(196, 132, 42, 0.2);
   clip-path: none;
 }
 
